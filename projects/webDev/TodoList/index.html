@@ -1,0 +1,64 @@
+<html>
+    <head>
+    <style>   
+        
+        ul{
+            list-style: none;
+            padding: 20px;
+            margin: 20px;
+            width: 45%;
+            float: left;
+            border: 1px solid #333;
+            background: #eee;
+			border-radius:25px;
+/*			position: relative;*/
+        }
+		.container{ 
+  			max-width:800px; 
+  			width:100%; 
+		}
+		
+        </style>  
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body> 
+		<div class="container text-center">
+			<div class="page=header">
+        		<h1>To-do List</h1>
+        	</div>
+			
+			<div class="jumbotron" style="border: solid 1px; border-radius:25px">
+				<div class='form-group'>
+				<input class="form-control" type="text" placeholder="Activity name" id = "input"/>
+				</div>
+				<div class='form-group'>
+				<button class="btn btn-primary" id = "btn"> Add</button>
+				</div>
+			</div>
+        
+        	<hr/>
+			<div class="container" style="border-radius:25px">
+				<div class="row">
+					<div class="col-lg-6"><h3>TODO</h3></div>
+					<div class="col-lg-6"><h3>DONE</h3></div>
+				</div>
+				<div class="row">
+<!--					<label>TODO</labe>-->
+					<ul id="todo"></ul>
+					<ul id="done"></ul>
+				</div>
+			</div>
+			<footer class="footer text-left">
+        <p>&copy; 2016 ToDo List, Inc.</p>
+      </footer>
+		</div>
+        <script
+    	src="https://code.jquery.com/jquery-3.1.1.js"
+    	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    	crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src = "jsutil.js"> </script>
+    </body>
+
+</html>
