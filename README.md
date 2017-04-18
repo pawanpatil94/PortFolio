@@ -1,4 +1,4 @@
 # Portfolio
 First Portfolio bulit using HTML, CSS and BootStrap. 
 
-https://pawanpatil94.github.io/Portfolio/
+http://www.public.asu.edu/~ppatil6/#
